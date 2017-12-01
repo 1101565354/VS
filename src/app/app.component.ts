@@ -20,6 +20,7 @@ export class AppComponent {
   };
   heroes: Hero[];
   h: Hero[];
+  d: Hero[];
   selectedHero: Hero;
   constructor(private heroService: HeroService) { }
    getHeroes(): void {
